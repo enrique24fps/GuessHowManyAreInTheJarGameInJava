@@ -47,6 +47,9 @@ public class Jar {
     return mActualItemsNumber == guess;
   }
 
+  public void fill(int actualItemsNumber) {
+    setActualItemsNumber(actualItemsNumber);
+  }
 
 
 
